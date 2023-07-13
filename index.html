@@ -5,13 +5,14 @@
   <title>Awesome Tours</title>
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
   <header>
     <h1>Faith Awesome Tours</h1>
   </header>
   
-  <div class="container">
+  <div class="container-calender">
     <p>How perfect is our winter weather right now! 🌞<br>
       Perfect time to do a road trip in one of our awesome RV's. 🚐<br>
       We have reduced our min day hire to 3 days & reduced our daily rate to a standard all year round rate (excluding Easter/Xmas only) & of course still offer discount to repeat hirers and longer hires. 🙂</p>
@@ -47,6 +48,54 @@
       <p>Discounts available for repeat hirers and longer hires.</p>
     </div>
   </div>
+  
+ <!-- Main content container -->
+ <div class="container">
+  <!-- Contact section -->
+  <section class="section">
+    <!-- Section title -->
+    <h2 class="section-title">Contact Us</h2>
+    <!-- Add your contact form or information here -->
+
+    <div class="contact-icons">
+      <!-- Facebook icon with a link to Facebook profile -->
+      <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <!-- LinkedIn icon with a link to LinkedIn profile -->
+      <a href="https://https://www.linkedin.com" target="_blank"><i
+          class="fab fa-linkedin"></i></a>
+      <!-- WhatsApp icon with a link to WhatsApp chat -->
+      <a href="https://www.whatsapp.com" target="_blank"><i
+          class="fab fa-whatsapp"></i></a>
+      <!-- Email icon with a link to the email address -->
+      <a href="www.gmail.com"><i class="fas fa-envelope"></i></a>
+      <!-- Twitter icon with a link to the Twitter profile -->
+      <a href="https://twitter.com" target="_blank"><i
+          class="fab fa-twitter"></i></a>
+    </div>
+
+    <!-- Contact form -->
+      <form id="contactForm">
+        <!-- Input field for first name with required attribute -->
+        <input type="text" id="firstName" placeholder="First name" required>
+        <!-- Input field for last name with required attribute -->
+        <input type="text" id="lastName" placeholder="Last Name" required>
+        <!-- Input field for email with required attribute -->
+        <input type="email" id="email" placeholder="Your Email" required>
+        <!-- Textarea for message with required attribute -->
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <!-- Button to submit the contact form -->
+        <button type="submit" class="button">Send Message</button>
+      </form>
+    </section>
+  </div>
+
+  <!-- Footer section -->
+  <footer>
+    <div class="container">
+      <!-- Footer text -->
+      <p class="footer-text">Faith Tours &copy; 2023</p>
+    </div>
+  </footer>
   
   
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
